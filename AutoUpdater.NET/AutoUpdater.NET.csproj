@@ -13,7 +13,7 @@
         <AssemblyVersion>1.6.5.0</AssemblyVersion>
         <FileVersion>1.6.5.0</FileVersion>
         <SignAssembly>true</SignAssembly>
-        <AssemblyOriginatorKeyFile>AutoUpdater.NET.snk</AssemblyOriginatorKeyFile>
+        <AssemblyOriginatorKeyFile>samplekey.snk</AssemblyOriginatorKeyFile>
         <NeutralLanguage>en</NeutralLanguage>
         <PackageId>Autoupdater.NET.Official</PackageId>
         <IncludeSymbols>true</IncludeSymbols>

@@ -57,9 +57,9 @@ namespace ZipExtractor
                         {
                             if (process.MainModule != null && process.MainModule.FileName.Equals(executablePath))
                             {
-                                _logBuilder.AppendLine("Waiting for application process to exit...");
+                                _logBuilder.AppendLine("等待程序退出...");
 
-                                _backgroundWorker.ReportProgress(0, "Waiting for application to exit...");
+                                _backgroundWorker.ReportProgress(0, "请等待...更新完成将自动重启程序");
                                 process.WaitForExit();
                             }
                         }

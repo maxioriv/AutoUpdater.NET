@@ -65,7 +65,7 @@
             this.textBoxInformation.Name = "textBoxInformation";
             this.textBoxInformation.Size = new System.Drawing.Size(514, 16);
             this.textBoxInformation.TabIndex = 4;
-            this.textBoxInformation.Text = "Extracting...";
+            this.textBoxInformation.Text = "请等待...更新完成将自动重启程序";
             // 
             // FormMain
             // 
@@ -84,7 +84,7 @@
             this.Name = "FormMain";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Installing update...";
+            this.Text = "安装更新中...";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormMain_FormClosing);
             this.Shown += new System.EventHandler(this.FormMain_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxIcon)).EndInit();

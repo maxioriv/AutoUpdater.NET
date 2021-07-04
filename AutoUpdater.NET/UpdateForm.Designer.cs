@@ -56,6 +56,7 @@ namespace AutoUpdaterDotNET
             // labelDescription
             // 
             resources.ApplyResources(this.labelDescription, "labelDescription");
+            this.labelDescription.ForeColor = System.Drawing.Color.LimeGreen;
             this.labelDescription.Name = "labelDescription";
             // 
             // labelReleaseNotes
