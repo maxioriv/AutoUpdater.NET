@@ -169,7 +169,7 @@
     <value>5</value>
   </data>
   <data name="labelUpdate.Text" xml:space="preserve">
-    <value>A new version of {0} is available!</value>
+    <value>新版本 {0} 可用！</value>
   </data>
   <data name="&gt;&gt;labelUpdate.Name" xml:space="preserve">
     <value>labelUpdate</value>
@@ -202,7 +202,7 @@
     <value>6</value>
   </data>
   <data name="labelDescription.Text" xml:space="preserve">
-    <value>{0} {1} is now available. You have version {2} installed. Would you like to download it now?</value>
+    <value>{0} {1} 版本可用. 你当前的版本是 {2} . 是否现在更新?</value>
   </data>
   <data name="&gt;&gt;labelDescription.Name" xml:space="preserve">
     <value>labelDescription</value>
@@ -232,7 +232,7 @@
     <value>7</value>
   </data>
   <data name="labelReleaseNotes.Text" xml:space="preserve">
-    <value>Release Notes:</value>
+    <value>更新说明：</value>
   </data>
   <data name="&gt;&gt;labelReleaseNotes.Name" xml:space="preserve">
     <value>labelReleaseNotes</value>
@@ -265,7 +265,7 @@
     <value>2</value>
   </data>
   <data name="buttonUpdate.Text" xml:space="preserve">
-    <value>Update</value>
+    <value>更新</value>
   </data>
   <data name="buttonUpdate.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -304,7 +304,7 @@
     <value>3</value>
   </data>
   <data name="buttonRemindLater.Text" xml:space="preserve">
-    <value>Remind me later</value>
+    <value>以后再提醒我更新</value>
   </data>
   <data name="buttonRemindLater.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -367,7 +367,7 @@
     <value>1</value>
   </data>
   <data name="buttonSkip.Text" xml:space="preserve">
-    <value>Skip this version</value>
+    <value>跳过这个版本</value>
   </data>
   <data name="buttonSkip.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -387,9 +387,9 @@
   <data name="&gt;&gt;buttonSkip.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
+  </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>7, 15</value>
   </data>
@@ -944,7 +944,7 @@
     <value>CenterParent</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>{0} {1} is available!</value>
+    <value>{0} {1} 版本可用！</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>UpdateForm</value>
