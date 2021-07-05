@@ -12,6 +12,7 @@ using System.Windows.Forms;
 using System.Xml;
 using System.Xml.Serialization;
 using AutoUpdaterDotNET.Properties;
+using AutoUpdaterDotNET;
 
 namespace AutoUpdaterDotNET
 {
@@ -476,9 +477,13 @@ namespace AutoUpdaterDotNET
 
                         if (ReportErrors)
                         {
-                            MessageBox.Show(Resources.UpdateUnavailableMessage,
-                                Resources.UpdateUnavailableCaption,
-                                MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+
+
+                            ShowMsg.ShowMessageBoxTimeout("当前没有可用更新", "更新提示", MessageBoxButtons.OK, 2000);
+                          //  MessageBox.Show(Resources.UpdateUnavailableMessage,
+                           //     Resources.UpdateUnavailableCaption,
+                            //    MessageBoxButtons.OK, MessageBoxIcon.Information);
                         }
                     }
                 }
